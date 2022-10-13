@@ -27,6 +27,7 @@ class _SharedPreferenceWidgetState extends State<SharedPreferenceWidget> {
            Text(snapshot.data!.getInt('age').toString()),
            Text(snapshot.data!.getDouble('DoubleValue:').toString()),
            Text(snapshot.data!.getBool('isLogin').toString()),
+           Text('This is Simple Text for Testing')
          ],);
        })
       ],),
